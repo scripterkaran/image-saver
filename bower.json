@@ -1,0 +1,27 @@
+{
+  "name": "image-saver",
+  "version": "0.0.1",
+  "homepage": "https://github.com/promactkaran/image-saver",
+  "authors": [
+    "Karan Kumar <world12.karan@gmail.com>"
+  ],
+  "description": "Ionic module for saving remote images to local file system in HTML mobile Apps",
+  "main": "imageSaver.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "image-saver",
+    "ionic-image-saver",
+    "ionic-remote-images",
+    "image-downloader-ionic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
