@@ -30,8 +30,8 @@ Include _ngCordova.js_ and _imageSaver.js_ in your index.html, and place it as a
 
 `image-saver` is a directive that is included on a `<img>` tag.
 required attributes
-1. name (remote-server url ) **REQUIRED** 
-2. directory (name of the directory you want to store your images) **REQUIRED**
+- 1. name (remote-server url ) **REQUIRED** 
+- 2. directory (name of the directory you want to store your images) **REQUIRED**
 
 ## **Example:**
 
