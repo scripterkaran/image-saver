@@ -1,5 +1,5 @@
 ##  image-saver
-Ionic directive for saving remote images to local file system in HTML mobile Apps.
+Ionic directive for saving remote images to local file system in HTML mobile Apps. Ionic Offline Image.
 
 If you have _remote images_ served from a external server and you need to save them to your device to 
 - avoid downloading them again and again, consuming more data
@@ -48,7 +48,7 @@ When the App is **offline**, images are gathered from local file system.
 This directive is benificial for those apps where are there many images, that needs to be loaded from the serve again and again. 
 
 ## **Future To-dos**
-1. Give developer option to whic cordova directory he/she wants to store images to
+1. Give developer option to which cordova directory he/she wants to store images to.
 
 
 
