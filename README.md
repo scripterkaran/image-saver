@@ -35,7 +35,7 @@ required attributes
 
 ## **Example:**
 
-     <img image-saver name="{{chat.face}}" directory="Images">
+     <img image-saver name="{{your scope variable to bind the URL of remote Image URL}}" directory="Images">
 if your image url is `http://bower.io/img/bower-logo.png`
 
 The Image will be stored with name: _bower-logo.png_ (the last segment of the url path)
