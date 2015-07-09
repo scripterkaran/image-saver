@@ -1,3 +1,5 @@
+## **repo is under development right now, and will be back soon. **
+
 ##  image-saver
 Ionic directive for saving remote images to local file system in HTML mobile Apps. Ionic Offline Image.
 
