@@ -1,11 +1,10 @@
-## **repo is under development right now, and will be back soon. **
+## Saving Images to local file system = saving Data usage, Ionic-Way!
 
 ##  image-saver
-Ionic directive for saving remote images to local file system in HTML mobile Apps. Ionic Offline Image.
+Ionic directive for saving remote images to local file system in HTML mobile Apps.
 
 If you have _remote images_ served from a external server and you need to save them to your device to 
 - avoid downloading them again and again, consuming more data
-- make your images show up when there is no internet connection
 
 This module is created for the very same reason 
 All image files are stored in a Folder (cache folder) and **NOT** in the localStorage.
@@ -44,10 +43,8 @@ The Image will be stored with name: _bower-logo.png_ (the last segment of the ur
 
 _Note_: src tag on `<img>` is not required, instead give _src_ to _name_ attribute.
 
-This directive creates a directory in _cache_ folder, if not exsit, and downloads the file. Next time if apps open up, the directive checks for existing file and use that instead of doing HTTP request again.
+This directive creates a directory in _cache_ folder, if not exsit, and downloads the file. Next time if apps open up, the directive checks for existing file and it uses that instead of doing HTTP request again.
 
-When the App is **offline**, images are gathered from local file system. 
-This directive is benificial for those apps where are there many images, that needs to be loaded from the serve again and again. 
 
 ## **Future To-dos**
 1. Give developer option to which cordova directory he/she wants to store images to.
