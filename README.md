@@ -41,7 +41,7 @@ if your image url is `http://bower.io/img/bower-logo.png`
 
 The Image will be stored with name: _bower-logo.png_ (the last segment of the url path)
 
-_Note_: **`src`** tag on `<img>` is not required, instead give _src_ to _name_ attribute.
+_Note_: **`src`** tag on `<img>` is not required, instead give **`_src_`** to **`_name_`** attribute.
 
 This directive creates a directory in _cache_ folder, if not exsit, and downloads the file. Next time if apps open up, the directive checks for existing file and it uses that instead of doing HTTP request again.
 
