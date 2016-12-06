@@ -1,5 +1,7 @@
 ## Saving Images to local file system = saving Data usage, Ionic-Way!
 
+### Requirements: at the time of writting this directive, cordova version was below 5, and it used "ant" for build process on android. This might not work with newer versions. Any help with porting this to newer version is apperiacted. PRs are welcomed. 
+
 ##  image-saver
 Ionic directive for saving remote images to local file system in HTML mobile Apps.
 
